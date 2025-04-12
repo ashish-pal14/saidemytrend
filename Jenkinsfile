@@ -1,5 +1,5 @@
 pipeline{
-	agent ant
+	agent any
 	environment{
 		PATH='/opt/maven/bin:$PATH'
 	}
